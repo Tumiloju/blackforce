@@ -1,6 +1,69 @@
-h1{
+.header {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    border: 2px black;
+    padding: 20px;
+}
+.red {
+    background-color: tomato;
+    color: white;
+    border: 2px black;
+    padding: 20px;
+    text-align: right;
+  }
+  .black{
+    background-color: rgb(90, 84, 84);
+    color: white;
+    border: 2px  black;
+    padding: 20px;
+    text-align: center
+    
+  }
+
+  li {
+    list-style-type: none;
+    display: inline;
+    
+      }
+a {
+        display: inline;
+        padding: 8px;
+        background-color: #dddddd;
+      }
   
 
-}
+  #para2 {
+      color: red
+    
+  }
+  #work {
+      text-decoration: underline;
+      
+  }
+  #footer{
+    background-color: plum;
+    color: white;
+    border: 10px  red;
+    padding: 20px;
+    border-top-style: solid
+    
 
     
+      
+  }
+  .blue {
+    background-color: rgb(66, 66, 175);
+    color: white;
+    border: 2px  black;
+    padding: 20px;
+    text-align: center
+  }
+  .grey {
+    background-color: grey;
+    color: white;
+    border: 2px  black;
+    padding: 20px;
+    text-align: center
+    
+    
+  }

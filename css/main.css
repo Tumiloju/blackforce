@@ -1,4 +1,5 @@
 .header {
+    
     background-color: rgb(15, 15, 15);
     color: white;
     border: 2px black;
@@ -14,6 +15,7 @@
     
   }
   .black{
+    height: 400px;
     background-color: rgb(90, 84, 84);
     color: white;
     border: 2px  black;
@@ -21,17 +23,64 @@
     text-align: center
     
   }
-
-  
+  #footer{
+    background-color: plum;
+    color: white;
+    border: 10px  red;
+    padding: 20px;
+    border-top-style: solid
+      
+  }
+  .blue {
+    height: 400px;
+    background-color: rgb(66, 66, 175);
+    color: white;
+    border: 80px  black;
+    padding: 40px;
+    text-align: center
      
+    
+  }
+  
+  .grey {
+    background-color: grey;
+    color: white;
+    border: 2px  black;
+    padding: 20px;
+    text-align: center
+  }
 
   li {
     list-style-type: none;
     display: inline;
     padding: 8px;
-    
-    
-      }
+  }
+  div.gallery {
+    Margin:30px;
+    border: 1px ;
+    float: left;
+    width: 300px;
+    display: inline;
+    outline-width:30px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 50%;
+    box-sizing:border-box;
+    padding-right: 50px;
+    padding-left: 10px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  
+  }
 
 a.one{
     display: inline;
@@ -60,30 +109,6 @@ h4{
       text-decoration: underline;
       
   }
-  #footer{
-    background-color: plum;
-    color: white;
-    border: 10px  red;
-    padding: 20px;
-    border-top-style: solid
-    
-   
-      
-  }
-  .blue {
-    background-color: rgb(66, 66, 175);
-    color: white;
-    border: 2px  black;
-    padding: 20px;
-    text-align: center
-  }
   
-  .grey {
-    background-color: grey;
-    color: white;
-    border: 2px  black;
-    padding: 20px;
-    text-align: center
-    
-    
   }
+    
